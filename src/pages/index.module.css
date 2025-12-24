@@ -1,0 +1,167 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Brand Hero Section */
+.brandHero {
+  background: linear-gradient(90deg, #18181b 0%, #27272a 100%);
+  color: #fff;
+  padding: 4rem 0 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brandHeroContent {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  max-width: 900px;
+  width: 100%;
+}
+.brandLogo img {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 24px 0 #0002;
+}
+.brandTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  letter-spacing: -1px;
+}
+.brandSubtitle {
+  font-size: 1.35rem;
+  margin-bottom: 2rem;
+  color: #d4d4d8;
+}
+.brandButtons {
+  display: flex;
+  gap: 1.2rem;
+}
+.ctaButton {
+  min-width: 180px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px 0 #0001;
+}
+
+/* Feature Section */
+.featureSection {
+  padding: 0;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featureCard {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 4px 32px 0 #0001;
+  margin: 2.5rem 0;
+  width: 90vw;
+  max-width: 1100px;
+  min-height: 320px;
+  overflow: hidden;
+}
+.featureCardLeft {
+  flex: 1.2;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.featureTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #18181b;
+}
+.featureDesc {
+  font-size: 1.1rem;
+  color: #52525b;
+}
+.featureCardLeft ul {
+  margin: 0.7rem 0 0 1.2rem;
+  padding: 0;
+  color: #71717a;
+  font-size: 1.05rem;
+}
+.featureCardRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  min-width: 320px;
+  padding: 2.5rem 2.5rem 2.5rem 0;
+}
+.codeBlock {
+  background: #18181b;
+  color: #f4f4f5;
+  border-radius: 1.2rem;
+  font-size: 1.05rem;
+  padding: 1.5rem 2rem;
+  min-width: 260px;
+  max-width: 420px;
+  overflow-x: auto;
+  box-shadow: 0 2px 12px 0 #0002;
+}
+
+/* Footer Gradient */
+.footerGradient {
+  background: linear-gradient(180deg, #fff0 0%, #18181b 100%);
+  padding: 3.5rem 0 2.5rem 0;
+  margin-top: 2rem;
+}
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+.footerLogo {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 8px 0 #0001;
+}
+.footerLinks {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+.footerLinks a {
+  color: #a1a1aa;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footerLinks a:hover {
+  color: #fff;
+}
+.footerCompany {
+  color: #71717a;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .brandHeroContent,
+  .featureCard {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1rem;
+    min-width: 0;
+  }
+  .featureCardRight {
+    padding: 1.5rem 0 1.5rem 0;
+    min-width: 0;
+  }
+}

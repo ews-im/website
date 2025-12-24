@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "EWS",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Products": {
+    "message": "全部产品",
+    "description": "Navbar item with label Products"
+  }
+}
