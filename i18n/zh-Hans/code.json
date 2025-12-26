@@ -399,5 +399,8 @@
   },
   "homepage.brandHero.viewAllProducts": {
     "message": "查看所有产品"
+  },
+  "homepage.footer.termsOfService": {
+    "message": "服务条款"
   }
 }

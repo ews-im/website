@@ -191,7 +191,11 @@ export default function Home(): ReactNode {
               className={styles.footerLogo}
             />
             <div className={styles.footerCompany}>
-              <a href="/terms">Terms of Service</a>
+              <Link to="/terms">
+                <Translate id="homepage.footer.termsOfService">
+                  Terms of Service
+                </Translate>
+              </Link>
             </div>
           </div>
         </footer>
