@@ -137,6 +137,15 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  plugins: [
+    [
+      "@dipakparmar/docusaurus-plugin-umami",
+      {
+        websiteID: "e0fdbb77-a1aa-4338-b0e8-eb13928d4f65",
+        analyticsDomain: "cloud.umami.is",
+      },
+    ],
+  ],
 };
 
 export default config;

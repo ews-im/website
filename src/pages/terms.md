@@ -28,7 +28,7 @@ EWS Studio reserves the right to modify these terms at any time. Changes will be
 
 # 7. Data Privacy
 
-We do **not** collect any personal information such as your name, email, or profile data. The only data we may collect is basic, anonymized server access logs (such as IP address, browser type, and time of visit) for security and performance monitoring. These logs are not used to identify individuals and are not shared with third parties.
+This website uses [Umami](https://umami.is/) as an analytics tool. Only anonymous visit statistics are collected; no personally identifiable information is stored or processed. No other data collection services are used on this site.
 
 ## 8. Contact
 
